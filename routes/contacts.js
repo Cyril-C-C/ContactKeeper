@@ -107,7 +107,6 @@ router.delete('/:id', auth, async (req, res) => {
     await Contact.findByIdAndRemove(req.params.id);
 
     res.json({ msg: 'Contact removed' });
-    
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
