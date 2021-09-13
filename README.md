@@ -1,5 +1,6 @@
-# Contact Keeper - MERN & Express Server Setup
+# Contact Keeper - MERN
 
++ Express Server Setup
 + Backend Users, Contacts & JWT Authentication
 + Client Side Setup & Contacts UI
 + ReactExpress Authentication
